@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Add Note */
+.add-note{
+    width: 40%;
+    margin-inline: auto;
+    margin-top: 20px;
+}
+
+.add-note input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+
+/* Title and note */
+.title-note{
+    width: 40%;
+    margin-inline: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.title-note input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.add-close-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-note button{
+    width: 60px;
+    font-size: 18px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #2d2b2c;
+}
+
+.flex{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
